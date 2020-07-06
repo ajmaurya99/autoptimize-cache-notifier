@@ -1,4 +1,4 @@
-# Autoptimize Cache Notifier
+# [WordPress] Autoptimize Cache Notifier
 
 Autoptimize Cache Notifier sends an email notification when the cache size exceeds 50% and 80%.
 
@@ -8,8 +8,8 @@ Just add the above script in your themes functions.php file
 
 ## Add Email id
 
-```python
- $mailto = 'user@example.com';
+```php
+ $mail_to = 'user@example.com';
 ```
 
 ## Working
