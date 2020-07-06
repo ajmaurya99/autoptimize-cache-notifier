@@ -1,13 +1,3 @@
-# Autoptimize Cache Notifier
-
-Autoptimize Cache Notifier sends an email notification when the cache size exceeds 50% and 80%.
-
-## Installation
-
-Just add the below script in your themes functions.php file
-
-```bash
-
 <?php
 /**
  * Notify when Autoptimise cache file size reached 50%.
@@ -65,18 +55,3 @@ add_action(
 	10,
 	1
 );
-
-
-```
-
-## Add Email id
-
-```python
- $mailto = 'user@example.com';
-```
-
-## Working
-This scripts notifies once per week of cache size is greter then 50%. And once per day cache size is greter then 80%. You can customize it as per your requirement.
-
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
